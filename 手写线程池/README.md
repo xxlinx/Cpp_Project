@@ -15,4 +15,4 @@ git地址：[github](https://github.com/xxlinx/Cpp_Project)
 
 1.  在ThreadPool资源回收，等待线程池里所有的线程退出的时候，由于抢锁发生死锁，导致进程无法退出
 2.  window下测试无问题，但在linux下测试存在死锁问题，应该头文件针对析构函数的处理存在差异
-
+3.  result any 等问题设计
