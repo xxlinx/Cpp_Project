@@ -27,6 +27,16 @@ int sum2(int a, int b, int c) {
 	this_thread::sleep_for(chrono::seconds(2));
 	return a + b + c;
 }
+
+//io线程
+void io_thread(int listenfd) {
+
+}
+//work线程
+void worker_thread(int clienfd) {
+
+}
+
 int main() {
 
 	ThreadPool pool;
